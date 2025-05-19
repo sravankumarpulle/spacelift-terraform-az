@@ -1,0 +1,6 @@
+resource_group_name   = "example-rg"
+location              = "East US"
+vnet_name             = "example-vnet"
+vnet_address_space    = "10.0.0.0/16"
+subnet_name           = "example-subnet"
+subnet_address_prefix = "10.0.1.0/24"
