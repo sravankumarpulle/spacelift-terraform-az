@@ -8,9 +8,10 @@ terraform {
   }
 }
 
-# provider "azurerm" {
-#   features {}
-# }
+provider "azurerm" {
+  features {}
+  subscription_id = "76be6555-f3d1-461b-8739-60075590507a"
+}
 
 resource "azurerm_resource_group" "rg" {
   name     = var.resource_group_name
